@@ -25,10 +25,10 @@
 	
 	/*Private functions----------------------------------------------------------*/
 	
-	void 			      HX711_power_up(void);
+	void 	        HX711_power_up(void);
 	long long int   ReadHX(void);
-	int32_t		      HX711_valueAve(uint16_t sample);
-	void 					  Delay_us(uint32_t us);
+	int32_t		HX711_valueAve(uint16_t sample);
+	void 		Delay_us(uint32_t us);
 	void            HX711_power_down(void);
 	void            HX711_is_ready(void);
 	void            HX711_set_gain(uint32_t gain);
